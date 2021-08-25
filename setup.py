@@ -7,7 +7,6 @@ setup(
     author='Svet Bajlekov',
     author_email='tomatoman@gmail.com',
     description='OpenWRT Test for Python package',
-    python_requires='~=3.7',
     packages=find_packages(),    
     install_requires=['paho-mqtt'],
     py_modules=[
