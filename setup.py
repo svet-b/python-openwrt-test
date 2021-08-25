@@ -9,4 +9,12 @@ setup(
     description='Test',
     packages=find_packages(),    
     install_requires=['paho-mqtt'],
+    py_modules=[
+        'mqtt_sub',
+    ],
+    entry_points={
+        'console_scripts': [
+            'mqtt_sub = mqtt_sub:main',
+        ]
+    },
 )
